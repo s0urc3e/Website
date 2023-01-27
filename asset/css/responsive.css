@@ -1,0 +1,173 @@
+/* Loptop */
+@media (max-width: 1024px)
+{
+    .project
+    {
+        width: 50%;
+    }
+    .resources-container .context
+    {
+        padding: 0 10px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px)
+{
+    .sidenav
+    {
+        left: -325px;
+        transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+
+    .sidenav.active
+    {
+        left: 0;
+    }
+
+    .indicator.hide
+    {
+        display: none;
+    }
+
+    .main-page
+    {
+        padding-left: 0;
+    }
+
+    .hero h1
+    {
+        font-size: 28px;
+    }
+
+    .hero h1 span
+    {
+        font-size: 35px;
+    }
+
+    *
+    {
+        font-size: 16px;
+    }
+    
+    .about .section-title,
+    .portfolio .sec-title h1
+    {
+        font-size: 30px;
+    }
+
+    .about .sub-title
+    {
+        font-size: 25px;
+    }
+    
+    .project h3.project-title
+    {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .project img
+    {
+        margin-bottom: 0;
+    }
+
+    .resources-container .context h2.article-title 
+    {
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    
+    .article .super-title 
+    {
+        font-size: 30px;
+    }
+
+    .article .super-content > p:nth-child(1)::first-letter 
+    {
+        line-height: 37px;
+        font-size: 70px;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: 5px;
+        margin-bottom: -5px;
+      }
+
+    .article .super-content h2 
+    {
+        font-size: 25px;
+    }
+
+    .article .super-content p 
+    {
+        line-height: 30px;
+    }
+
+    .contact.container h1.content-title span
+    {
+        font-size: 20px;
+    }
+
+    .contact.container h1.content-title 
+    {
+        font-size: 30px;
+    }
+
+    .sidenav-activate
+    {
+      display: block !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 425px)
+{
+    .about .row .col,
+    .project,
+    .resources-container .context
+    {
+        width: 100%;
+    }
+
+    .resources-container .img-container
+    {
+        max-width: 100%;
+    }
+
+    .resources-container .context
+    {
+        padding: 0;
+    }
+
+    /* .portfolio .title-section .search input {
+        padding: 12px 12px;
+        padding-right: 0;
+        max-width: 49px;
+    } */
+
+    .title-section::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .title-section.activate-search .two-rows.sec-title
+    {
+        opacity: 0;
+        width: 0;
+        overflow-x: hidden;
+    }
+
+    .title-section.activate-search .two-rows.search
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .portfolio .title-section .search input
+    {
+        padding: 12px 17px;
+        padding-right: 0;   
+    }
+}
