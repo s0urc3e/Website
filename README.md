@@ -1,2 +1,3 @@
 # Website
-a website for me - amogus sus gas
+
+This is a website created for me, all open source.
